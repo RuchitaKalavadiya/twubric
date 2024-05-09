@@ -21,15 +21,15 @@ defineProps({
       <v-row class="py-2 px-2">
         <v-col cols="4" class="text-center border">
           {{ data.twubric.friends }}
-          <div class="text-subtitle-1">friends</div>
+          <div class="text-subtitle-1">Friends</div>
         </v-col>
         <v-col cols="4" class="text-center border">
           {{ data.twubric.influence }}
-          <div class="text-subtitle-1">influence</div>
+          <div class="text-subtitle-1">Influence</div>
         </v-col>
         <v-col cols="4" class="text-center border">
           {{ data.twubric.chirpiness }}
-          <div class="text-subtitle-1">chirpiness</div>
+          <div class="text-subtitle-1">Chirpiness</div>
         </v-col>
         <v-col cols="4" class="border font-weight-medium text-center">
           {{ formateDate(data.join_date, { isStamp: true }) }}
